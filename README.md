@@ -10,13 +10,8 @@
 ![Validaciones](https://img.shields.io/badge/verificaciones-5%2F5-184E77)
 
 **Pablo Daniel Barillas Moreno · 22193**  
-<<<<<<< HEAD
 **Cindy Mishelle Gualim Pérez · 221226**  
 **Gadiel Ocaña · 231270**
-=======
-**Cindy Mishelle Gualim Pérez · 221226**
-**Gadiel Amir Ocaña Véliz · 231270**
->>>>>>> 3f94f7a8fd7c701dfd0af0ff46b1e97da8aeb1be
 
 </div>
 
