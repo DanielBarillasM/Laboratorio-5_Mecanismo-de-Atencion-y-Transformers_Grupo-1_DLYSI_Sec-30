@@ -10,7 +10,13 @@
 ![Validaciones](https://img.shields.io/badge/verificaciones-5%2F5-184E77)
 
 **Pablo Daniel Barillas Moreno · 22193**  
+<<<<<<< HEAD
+**Cindy Mishelle Gualim Pérez · 221226**  
+**Gadiel Ocaña · 231270**
+=======
 **Cindy Mishelle Gualim Pérez · 221226**
+**Gadiel Amir Ocaña Véliz · 231270**
+>>>>>>> 3f94f7a8fd7c701dfd0af0ff46b1e97da8aeb1be
 
 </div>
 
@@ -30,6 +36,7 @@ El EDA complementario muestra que no existen frases repetidas entre entrenamient
 |---|---|
 | [Notebook oficial](notebooks/S09_Lab05_Reto_Babel_ESTUDIANTE.ipynb) | Entrega solicitada por la rúbrica: investigación, datos, modelo, entrenamiento, evaluación y ablación. |
 | [Notebook EDA](notebooks/EDA_Reto_Babel_Lab05.ipynb) | Evidencia de integridad, cobertura, longitudes, estructuras y diagnóstico de errores. |
+| [Evidencia del Integrante A](notebooks/evidencia_individual/S09_Lab05_Integrante_A.ipynb) | Lectura sobre atención y preparación de lotes, padding y máscaras asignadas a Pablo. |
 | [Informe PDF](informe/informe_Lab05_Reto_Babel.pdf) | Informe compilado de siete páginas con investigación, método, EDA, resultados y conclusiones. |
 | [Presentación HTML](presentacion/presentacion_Lab05_Reto_Babel.html) | Presentación autónoma de ocho diapositivas; funciona sin conexión. |
 | [Resultados JSON](resultados/resultados_lab5.json) | Métricas, curvas, subgrupos y errores exportados por el notebook oficial. |
@@ -46,7 +53,7 @@ Laboratorio-5_Deep-Learning/
 ├── evidencia/
 │   └── figuras/                     # gráficas del modelo y del EDA
 ├── informe/                         # fuente .tex y PDF compilado
-├── notebooks/                       # notebook oficial y EDA ejecutados
+├── notebooks/                       # notebook oficial, EDA y evidencia individual ejecutados
 ├── presentacion/                    # presentación HTML autónoma
 └── resultados/                      # salida estructurada del experimento
 ```
@@ -141,7 +148,8 @@ La entrega formal indicada por el PDF es el **notebook oficial ejecutado**. El E
 
 ## Integrantes y contribuciones
 
-- **Pablo Daniel Barillas Moreno (22193):** configuración del Transformer, teacher forcing, decodificación, entrenamiento, evaluación, visualizaciones y documentación técnica.
-- **Cindy Mishelle Gualim Pérez (221226):** investigación, revisión de datos, padding y máscaras, análisis exploratorio, interpretación de la ablación, presentación y control documental.
+- **Pablo Daniel Barillas Moreno (22193), Integrante A:** lectura sobre atención, investigación guiada, lotes, padding, máscara causal y máscaras de padding.
+- **Cindy Mishelle Gualim Pérez (221226), Integrante B:** configuración del Transformer, teacher forcing, entrenamiento, seguimiento de pérdidas y reproducibilidad.
+- **Gadiel Ocaña (231270), Integrante C:** decodificación progresiva, evaluación, experimento de posición, análisis de errores y revisión de resultados.
 
-Ambos integrantes revisaron el flujo completo y deben poder explicar todos los bloques del laboratorio.
+Los tres integrantes revisaron el flujo completo y deben poder explicar todos los bloques del laboratorio.
