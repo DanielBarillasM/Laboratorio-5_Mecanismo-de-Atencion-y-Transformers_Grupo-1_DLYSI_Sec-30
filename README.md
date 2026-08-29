@@ -11,6 +11,7 @@
 
 **Pablo Daniel Barillas Moreno · 22193**  
 **Cindy Mishelle Gualim Pérez · 221226**
+**Gadiel Amir Ocaña Véliz · 231270**
 
 </div>
 
