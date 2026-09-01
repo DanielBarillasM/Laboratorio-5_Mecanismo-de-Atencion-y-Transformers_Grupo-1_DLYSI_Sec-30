@@ -1,0 +1,208 @@
+{
+  "integrantes": [
+    {
+      "nombre": "Pablo Daniel Barillas Moreno",
+      "carne": "22193"
+    },
+    {
+      "nombre": "Cindy Mishelle Gualim Pérez",
+      "carne": "221226"
+    },
+    {
+      "nombre": "Gadiel Ocaña",
+      "carne": "231270"
+    }
+  ],
+  "datos": {
+    "diccionario": 22,
+    "entrenamiento": 1200,
+    "validacion": 240,
+    "vocabulario_src": 26,
+    "vocabulario_tgt": 26,
+    "validacion_con_negacion": 115
+  },
+  "modelo": {
+    "parametros": 98810,
+    "epocas": 22,
+    "dispositivo": "cpu"
+  },
+  "con_posicion": {
+    "exactitud_tokens": 0.9815668202764977,
+    "frases_exactas": 0.9416666666666667,
+    "mejor_perdida_val": 0.04062968776087452
+  },
+  "sin_posicion": {
+    "exactitud_tokens": 0.7788018433179723,
+    "frases_exactas": 0.5416666666666666,
+    "mejor_perdida_val": 0.10435991220900523
+  },
+  "subgrupos_con_posicion": {
+    "negacion": {
+      "exactitud_tokens": 0.97712833545108,
+      "frases_exactas": 0.9217391304347826
+    },
+    "sin_negacion": {
+      "exactitud_tokens": 0.9863387978142076,
+      "frases_exactas": 0.96
+    }
+  },
+  "deltas_posicion": {
+    "exactitud_tokens": 0.20276497695852536,
+    "frases_exactas": 0.4
+  },
+  "veredicto_posicion": "La evidencia respalda la predicción: la posición mejora tanto los tokens como las frases completas.",
+  "errores_muestra": [
+    {
+      "secreto": "fefo rino fefo sena gero pefe riga",
+      "esperado": "el perro no lleva el niño verde",
+      "prediccion": "el niño no lleva el perro verde"
+    },
+    {
+      "secreto": "moro seza moro povo mapa nava riga",
+      "esperado": "la maestra no lee la médica grande",
+      "prediccion": "la médica no lee la maestra grande"
+    },
+    {
+      "secreto": "fefo rino fefo sena gero zita riga",
+      "esperado": "el perro no encuentra el niño verde",
+      "prediccion": "el niño no encuentra el perro verde"
+    },
+    {
+      "secreto": "fefo mefi fefo disa gero rizo",
+      "esperado": "el músico cuida el niño azul",
+      "prediccion": "el niño cuida el músico azul"
+    },
+    {
+      "secreto": "moro somi moro ragi sesi gope riga",
+      "esperado": "la niña no busca la gata joven",
+      "prediccion": "la gata no busca la niña joven"
+    },
+    {
+      "secreto": "fefo zizi fefo ragi rino bane",
+      "esperado": "el jardinero mira el perro joven",
+      "prediccion": "el perro mira el jardinero joven"
+    },
+    {
+      "secreto": "moro somi moro mapa gope riga",
+      "esperado": "la niña no busca la médica",
+      "prediccion": "la médica no busca la niña"
+    },
+    {
+      "secreto": "fefo rino fefo disa mefi nava riga",
+      "esperado": "el perro no lee el músico azul",
+      "prediccion": "el músico no lee el perro azul"
+    },
+    {
+      "secreto": "moro somi moro sena sesi gope",
+      "esperado": "la niña busca la gata verde",
+      "prediccion": "la gata busca la niña verde"
+    },
+    {
+      "secreto": "fefo zizi fefo posi mefi zita riga",
+      "esperado": "el jardinero no encuentra el músico feliz",
+      "prediccion": "el músico no encuentra el jardinero feliz"
+    }
+  ],
+  "historia": {
+    "con_posicion": {
+      "train": [
+        2.430060346596021,
+        1.4132913016443527,
+        0.9512206266527016,
+        0.6043892196629903,
+        0.36659190669594816,
+        0.263847883013147,
+        0.21913961084282577,
+        0.1969120396252869,
+        0.1744837858656988,
+        0.16007341456181517,
+        0.1511522368741827,
+        0.13001540915302767,
+        0.1318547505226364,
+        0.13185983944875698,
+        0.12320593054346629,
+        0.1141286694070747,
+        0.11893230329194411,
+        0.10294916430380655,
+        0.09975559430187564,
+        0.10480642044368713,
+        0.0895111992474088,
+        0.099219505179194
+      ],
+      "val": [
+        1.5555974012616685,
+        0.9690451867679359,
+        0.569154385716621,
+        0.29632120038583376,
+        0.17932374250184005,
+        0.15421295736986781,
+        0.13778943025876067,
+        0.14463271771628047,
+        0.11191858550308102,
+        0.11322749609412491,
+        0.09605903611341073,
+        0.09320717908954539,
+        0.10120862963831241,
+        0.08936325491169354,
+        0.09180449874411936,
+        0.0770751834593421,
+        0.07616366486680853,
+        0.05990889629496303,
+        0.04564595035467384,
+        0.054029833815564074,
+        0.06625060824388262,
+        0.04062968776087452
+      ]
+    },
+    "sin_posicion": {
+      "train": [
+        2.3722243804371104,
+        1.2944312448011521,
+        0.7817601473928311,
+        0.43734033117786547,
+        0.27696556209325246,
+        0.20860905879401195,
+        0.17714921711838588,
+        0.1609085747085278,
+        0.15048847876390906,
+        0.141400256400429,
+        0.13626072378663948,
+        0.13792065888805896,
+        0.1305819165618881,
+        0.12387161223762493,
+        0.12651871211264365,
+        0.12601880717932798,
+        0.12676446176912906,
+        0.12386323044710996,
+        0.11616553252002985,
+        0.11297887001100211,
+        0.11407394583195976,
+        0.11217011314896819
+      ],
+      "val": [
+        1.5018827644107422,
+        0.8381754516403129,
+        0.4309607605116824,
+        0.211720828028346,
+        0.17333529316918156,
+        0.12848006041467427,
+        0.13511215940736246,
+        0.12040204659417789,
+        0.11420108877745049,
+        0.1112101137460193,
+        0.11479030117485725,
+        0.1178708579253581,
+        0.10842322969026631,
+        0.10435991220900523,
+        0.10578488821990792,
+        0.10766063262075778,
+        0.11651613692064187,
+        0.10542893747737152,
+        0.10657419338864722,
+        0.10937717171505543,
+        0.105675361478715,
+        0.10653132488691651
+      ]
+    }
+  }
+}
