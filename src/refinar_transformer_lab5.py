@@ -7,7 +7,7 @@ from pathlib import Path
 
 import torch
 
-import lab5_optimize_transformer as core
+import optimizar_transformer_lab5 as core
 
 
 SCRIPT_DIRECTORY = Path(__file__).resolve().parent
