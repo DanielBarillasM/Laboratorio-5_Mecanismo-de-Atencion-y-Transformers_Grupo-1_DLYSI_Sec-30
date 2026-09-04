@@ -121,11 +121,7 @@ Durante entrenamiento se aplica *teacher forcing*: el decoder recibe el prefijo 
 La atención escalada se expresa como:
 
 $$
-\mathrm{Attention}(Q,K,V)
-=
-\mathrm{softmax}\!\left(
-\frac{QK^{\mathsf{T}}}{\sqrt{d_k}} + M
-\right)V
+\mathrm{Attention}(Q,K,V)=\mathrm{softmax}\left(\frac{QK^{\mathsf{T}}}{\sqrt{d_k}}+M\right)V
 $$
 
 donde $M$ representa las restricciones causales o de padding. La codificación posicional es indispensable porque self-attention, por sí sola, no conoce el orden. La ablación del proyecto mide precisamente ese efecto.
